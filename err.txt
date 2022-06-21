@@ -1,0 +1,9 @@
+ Error: remote-exec provisioner error
+│
+│   with azurerm_virtual_machine.main,
+│   on main.tf line 121, in resource "azurerm_virtual_machine" "main":
+│  121:     provisioner "remote-exec" {
+│
+│ timeout - last error: unknown error Post "http://20.8.104.214:5985/wsman": dial tcp 20.8.104.214:5985: connectex: A connection     
+│ attempt failed because the connected party did not properly respond after a period of time, or established connection failed       
+│ because connected host has failed to respond.
